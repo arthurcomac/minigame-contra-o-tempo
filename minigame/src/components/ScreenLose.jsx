@@ -12,10 +12,13 @@ function ScreenLose() {
         <p className="flex text-center text-xl">
           Tente novamente!
         </p>
-        <button
-        className="w-32 h-12 bg-[#ffdc14] text-[#229a00] font-bold border-solid border-yellow-700 border-[2px] rounded-lg text-2xl hover:bg-[#ceaf00]">
-        <Link to="/play">Reiniciar</Link>          
-        </button>
+        <Link to="/play">
+          <button
+            className="w-32 h-12 bg-[#ffdc14] text-[#229a00] font-bold border-solid border-yellow-700 border-[2px] rounded-lg text-2xl hover:bg-[#ceaf00]"
+          >
+            Reiniciar  
+          </button>
+        </Link>
       </div>      
     </div>
   );

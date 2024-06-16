@@ -14,7 +14,7 @@ function ScreenWin() {
         </p>
         <button
         className="w-32 h-12 bg-[#ffdc14] text-[#229a00] font-bold border-solid border-yellow-700 border-[2px] rounded-lg text-2xl hover:bg-[#ceaf00]">
-        <Link to="/play">Reiniciar</Link>          
+        <Link to="/">Reiniciar</Link>          
         </button>
       </div>      
     </div>

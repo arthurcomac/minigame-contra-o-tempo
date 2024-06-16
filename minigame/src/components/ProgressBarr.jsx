@@ -20,7 +20,7 @@ const ProgressBar = () => {
     };
 
     const gameOverTimeFinish = () => {
-      window.location.reload();
+      window.location.reload(); //pendencia, ajustar para React
     };
 
     updateProgressBar();
